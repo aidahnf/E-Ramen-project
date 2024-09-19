@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERamen</title>
+
+    <!-- biar ada icon menu and search -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- link agar dapat di swipe bagian menu -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- untuk box icon menu -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> --> 
+
+
+    <!-- link ke css  -->
+    <link rel="stylesheet" href="Products.css">
+</head>
+
+<body> 
+     <!-- <div class="firstpict"> -->
+       
+ 
+    
+ 
+
+     <!-- header dulu -->
+    
+     <header>
+        <a href="./HomeP.html" class="logo"><img src="./pict/Logo.png" alt="">ERamen.</a>
+
+        <nav class="navbar">
+            <a href="./HomeP.html">home</a>
+            <a class="active" href="./Products.html">Products</a>
+            <a href="./Promotion.html">Promotion</a>
+            <a href="./AboutUs.html">About us</a>
+            <a href="./ContactUs.html">Contact us</a>
+
+
+        </nav>
+
+
+        <div class="icons">
+            <i class="fas fa-bars" id="bars"></i>
+            <i class="fas fa-search" id="search"></i>
+
+        </div>
+
+    </header>
+
+
+
+<!-- udah header nya -->
+
+<!-- nih umtuk tombol search nya -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+
+</form>
+
+
+
+  
+ <!-- </div> -->
+
+ <!-- home menu lagi ya -->
+ <section class="Home" id="Home">
+
+    <div class="swiper Home-slider">
+
+    <div class="swiper-wrapper wrapper">
+
+        <div class="swiper-slide slide" >
+            <div class="Home-Info">
+                <span> our NEW menu</span>
+                <h3>Niku Eramen</h3>
+                <p>Niku's ramen broth uses soyu soup that is specially made by Eramen for about 12 hours. 
+                    with abundant and appetizing meat toppings.</p>
+                    <h1>ONLY Rp49.99rb</h1>
+                <a href="#New-menu" class="btn">Find more</a>
+
+
+            </div>
+            <div class="Home-img">
+             <img src="./pict/5.png" alt="">
+
+            </div> 
+        </div>
+
+        <div class="swiper-slide slide" >
+            <div class="Home-Info">
+                <span> our BEST Seller</span>
+                <h3>Beef Curry ERamen</h3>
+                <p>ERamen's most popular curry broth with savory flavors and tender, 
+                    juicy meat and an abundance of toppings that can arouse your taste buds.</p>
+                    <h1>ONLY Rp64.99rb</h1>
+                <a href="#Best-menu" class="btn">Find more</a>
+
+
+            </div>
+            <div class="Home-img">
+             <img src="./pict/9.png" alt="">
+
+            </div> 
+        </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+
+</div> 
+
+
+</section>
+
+<!-- masuk ke NEW menu yaa -->
+
+<section class="New-menu" id="New-menu">
+
+    <h1 class="sub-heading">NEW Menu</h1>
+    <h3 class="heading">choose your favourite</h3>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="./pict/10.png" alt="">
+            <h3>Beef Hot ERamen</h3>
+            <span>Ramen with spicy ERamen sauce topped with beef so has its characteristics.</span>
+        </div>
+
+        <div class="box">
+            <img src="./menu/22.png" alt="">
+            <h3>Beef Mazesoba ERamen</h3>
+            <span>A dry ramen with beef toppings that meets the needs of customers while still having a unique flavor.</span>
+        </div>
+
+        <div class="box">
+            <img src="./menu/2.png" alt="">
+            <h3>Crispy Duck ERamen</h3>
+            <span>Eramen-style miso soup ramen topped with crispy duck.</span>
+        </div>
+
+        <div class="box">
+            <img src="./menu/33.png" alt="">
+            <h3>Matcha Latte</h3>
+            <span>we now bring you Matcha Latte blended with quality results.</span>
+        </div>
+
+
+        <div class="box">
+            <img src="./menu/3.png" alt="">
+            <h3>Happy ERamen</h3>
+            <span>A ramen that uses a spicy miso broth topped with an abundance of meat that can make you happy
+                 lives up to its name.</span>
+        </div>
+
+        <div class="box">
+            <img src="./menu/29.png" alt="">
+            <h3>Shansuko Dango</h3>
+            <span>Our new desseart menu with customized ingredients will greet you with sweetness.</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- masuk ke Best Menu yaa -->
+
+<section class="Best-menu" id="Best-menu">
+
+    <h1 class="sub-heading1">Best Menu</h1>
+    <h3 class="heading1">Many People Like This Menu</h3>
+
+    <div class="box-container1">
+        <div class="box1">
+            <img src="./menu/15.png" alt="">
+            <h3>Duck Dry ERamen</h3>
+            <span>Dry Eramen uses duck toppings, but the flavor is not inferior to other ramen.</span>
+        </div>
+
+        <div class="box1">
+            <img src="./menu/6.png" alt="">
+            <h3>Healthy ERamen</h3>
+            <span>This ramen uses a spicy miso broth with healthy noodles.</span>
+        </div>
+
+        <div class="box1">
+            <img src="./menu/10.png" alt="">
+            <h3>Tofu ERamen</h3>
+            <span>This ramen uses a spicy miso broth topped with tofu, which is the main point. perfect for vegans.</span>
+        </div>
+
+       
+
+
+        
+
+    </div>
+
+</section>
+<!-- menu ramen nya -->
+<section class="ERamen" id="Eramen">
+
+    <h1 class="sub-heading2">Menu</h1>
+    <h3 class="heading1">Ramen</h3>
+
+    <div class="box-container1">
+        <div class="box1">
+            <img src="./menu/1.png" alt="">
+            <h3>Full Fill ERamen</h3>
+            <span>This ramen uses a spicy miso broth topped with a lot of toppings.</span>
+        </div>
+
+        <div class="box1">
+            <img src="./menu/4.png" alt="">
+            <h3>Dry Sun Ramen</h3>
+            <span>This ramen has just a little bit of broth, but it's not as dry as deep-fried ramen.</span>
+        </div>
+
+        <div class="box1">
+            <img src="./menu/5.png" alt="">
+            <h3>Ori Eramen</h3>
+            <span>This ramen uses a miso broth topped with many beef .</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/16.png" alt="">
+            <h3>Jem Jem ERamen</h3>
+            <span>This ramen uses a miso and curry broth topped with tenderized meet .</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/7.png" alt="">
+            <h3>Chickie Ramen</h3>
+            <span>This ramen uses a spicy miso broth topped with chicken and many more.</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/8.png" alt="">
+            <h3>HotSa ERamen</h3>
+            <span>This ramen uses a spicy miso broth with high level spicy. let's who dares to try.</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/9.png" alt="">
+            <h3>Mienaso ERamen</h3>
+            <span>This ramen uses a spicy miso broth topped without any meet toppings. perfect for vegans.</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/11.png" alt="">
+            <h3>Dryle Eramen</h3>
+            <span>This ramen is a spicy dry ramen Try all the spicy level..</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/13.png" alt="">
+            <h3>Curryen ERamen</h3>
+            <span>This ramen uses a spicy curry with many toppings.</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/21.png" alt="">
+            <h3>Sea ya Eramen</h3>
+            <span>dry ramen that we made the seasoning ourself so it has a distinctive ERamen style with seafood toppings. </span>
+        </div>
+        <div class="box1">
+            <img src="./menu/18.png" alt="">
+            <h3>kiro Curry ERamen</h3>
+            <span>This ramen uses a spicy miso broth and curry with corned beef and vegetable toppings .</span>
+        </div>
+
+       
+
+
+        
+
+    </div>
+
+</section>
+
+<!-- ini menu tempura -->
+<section class="ETempura" id="ETempura">
+
+    <!-- <h1 class="sub-heading2">Menu</h1> -->
+    <h3 class="heading1">Tempura</h3>
+
+    <div class="box-container1">
+        <div class="box1">
+            <img src="./menu/23.png" alt="">
+            <h3>Wings Tempura</h3>
+            <span>Shrimp tempura that goes well with the ramen you ordered^^.</span>
+        </div>
+
+        <div class="box1">
+            <img src="./menu/24.png" alt="">
+            <h3>Steam EGyoza</h3>
+            <span>Steam Gyoza by ERamen which has abundant and delicious ingredients .</span>
+        </div>
+
+        <div class="box1">
+            <img src="./menu/25.png" alt="">
+            <h3>Dry EGyoza</h3>
+            <span>Steam Gyoza by ERamen which has abundant and delicious ingredients .</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/31.png" alt="">
+            <h3>Nori Tempura</h3>
+            <span>Nori Tempura it's a best choice for your ramen partner.</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/28.png" alt="">
+            <h3>Epotato Temopra</h3>
+            <span>Need something sweet but crunchy? you can choose this one!.</span>
+        </div>
+        <div class="box1">
+            <img src="../menu/35.png" alt="">
+            <h3>EChicken Karage</h3>
+            <span>Our best side dishes that can fulfill your appetite with unique and interesting seasonings that will keep you interested.</span>
+        </div>
+       
+        
+
+    </div>
+
+</section>
+
+<!-- nah kalau ini desserts sama drinks -->
+
+<section class="EDrinks" id="EDrinks">
+
+    <!-- <h1 class="sub-heading2">Menu</h1> -->
+    <h3 class="heading1">Drinks and Desserts</h3>
+
+    <div class="box-container1">
+        <div class="box1">
+            <img src="./menu/30.png" alt="">
+            <h3>Mochi Moch</h3>
+            <span>Need something sweet? take this one! we have many toppings of our Mochi.</span>
+        </div>
+
+        <div class="box1">
+            <img src="./menu/32.png" alt="">
+            <h3>Sakura Matcha</h3>
+            <span>Our drink will take the heat off of you with its blend of sakura and matcha combined with milk..</span>
+        </div>
+
+        <div class="box1">
+            <img src="./menu/34.png" alt="">
+            <h3>EOcha</h3>
+            <span>Ocha or Green Tea it's best partner when eating ramen.</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/36.png" alt="">
+            <h3>Sakura latte</h3>
+            <span>Our drink will take the heat off of you with its blend of sakura combined with milk with an ice cream.</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/37.png" alt="">
+            <h3>Peachy pich</h3>
+            <span>Dessert with sweet peach which will spoil your palate with the sweetness of peaches .</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/38.png" alt="">
+            <h3>sprinkle star</h3>
+            <span>sweet drink taste of sakura with some sprinkle combined with soda.</span>
+        </div>
+        <div class="box1">
+            <img src="./menu/39.png" alt="">
+            <h3>Appleren</h3>
+           <span> Dessert with sweet Apple and honey which will spoil your palate with the sweetness of Apple.</span>       
+         </div>
+       
+       
+
+
+        
+
+    </div>
+
+</section>
+
+    
+<footer>
+    <div class="box-container-footer">
+
+        <div class="box-footer">
+            <h3>location in Japan</h3>
+            <a href=""><li>Osaka</li></a>
+            <a href=""><li>Tokyo</li></a>
+            <a href=""><li>Nagoya</li></a>
+        </div>
+
+        <div class="box-footer">
+            <h3>location in Indonesia</h3>
+            <a href=""><li>Jakarta</li></a>
+            <a href=""><li>Bandung</li></a>
+            <a href=""><li>Bali</li></a>
+            <a href=""><li>Riau</li></a>
+            <a href=""><li>Yogyakarta</li></a>
+            <a href=""><li>Bali</li></a>
+        </div>
+
+        <div class="box-footer">
+            <h3>Contact Us</h3> 
+            <a href="ContactUs.html"><li>Contact Us</li></a>
+            <br>
+            <span>or</span>
+            <h3>Contact</h3> 
+            <a href=""><li> 0812-3456-789</li></a>
+            <a href=""><li>(021)4365-987 </li></a>
+           
+            <a href=""><li>Eramen@gmail.com</li></a>
+        </div>
+
+
+    </div>
+
+    <div class="credit">copyright @ 2023 by <span>aida hanifa</span> All rights reserved</div>
+
+</footer>
+ 
+     <!-- link agar dapat swipe -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="Products.js"></script>
+</body>
+
+
+</html>

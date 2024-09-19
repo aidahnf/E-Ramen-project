@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERamen</title>
+
+    <!-- biar ada icon menu and search -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- link agar dapat di swipe bagian menu -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- untuk box icon menu -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> --> 
+
+
+    <!-- link ke css  -->
+    <link rel="stylesheet" href="ContactUs.css">
+</head>
+
+<body> 
+     <div class="firstpict">
+       
+ 
+    
+ 
+
+     <!-- header dulu -->
+    
+     <header>
+        <a href="./HomeP.html" class="logo"><img src="./pict/Logo.png" alt="">ERamen.</a>
+
+        <nav class="navbar">
+            <a href="./HomeP.html">home</a>
+            <a href="./Products.html">Products</a>
+            <a href="./Promotion.html">Promotion</a>
+            <a href="./AboutUs.html">About us</a>
+            <a class="active" href="./ContactUs.html">Contact us</a>
+
+
+        </nav>
+
+
+        <div class="icons">
+            <i class="fas fa-bars" id="bars"></i>
+            <i class="fas fa-search" id="search"></i>
+
+        </div>
+
+    </header>
+
+    <div class="DataUser">
+
+        <div class="Left">
+            <!-- <img src="./pict/RenjunCooking.jpg" alt=""> -->
+        </div>
+       <div class="Right"> 
+            <h3 class="sub-heading">Tell Us How You Feel</h3>
+                <form action=""onsubmit="val(event)">
+                   
+                    <div class="boxinput">
+                    <h1>Name :</h1>
+                    <input type="text" name="" id="name" placeholder="Name">
+                    <h1>Email:</h1>
+                    <input type="email" name="" id="email" placeholder="Email">
+                    <h1>Phone Number :</h1>
+                    <input type="text" name="" id="phonenum" placeholder="08xxxxxxx">
+                    <h1>Preferance :</h1>
+                    <select  name="ramen" id="ramen" class="boxes">
+                        <option value="" class="ramen-boxes">Choose Preferance</option>
+                        <option value="" class="ramen-boxes">Ramen</option>
+                        <option value="" class="ramen-boxes">Dry Ramen</option>
+                    </select>
+                   <p>agree to receive newsletter<input type="checkbox" class="check" id="checkbox"></p>
+            
+                    <button type="submit">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+    </div>
+
+
+<!-- udah header nya -->
+
+<!-- nih umtuk tombol search nya -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+
+</form>
+
+
+  
+ </div>
+
+ <!-- home menu lagi ya -->
+
+
+
+    <footer>
+        <div class="box-container-footer">
+
+            <div class="box-footer">
+                <h3>location in Japan</h3>
+                <a href=""><li>Osaka</li></a>
+                <a href=""><li>Tokyo</li></a>
+                <a href=""><li>Nagoya</li></a>
+            </div>
+
+            <div class="box-footer">
+                <h3>location in Indonesia</h3>
+                <a href=""><li>Jakarta</li></a>
+                <a href=""><li>Bandung</li></a>
+                <a href=""><li>Bali</li></a>
+                <a href=""><li>Riau</li></a>
+                <a href=""><li>Yogyakarta</li></a>
+                <a href=""><li>Bali</li></a>
+            </div>
+
+            <div class="box-footer">
+                <h3>Contact Us</h3> 
+                <a href="ContactUs.html"><li>Contact Us</li></a>
+                <br>
+                <span>or</span>
+                <h3>Contact</h3> 
+                <a href=""><li> 0812-3456-789</li></a>
+                <a href=""><li>(021)4365-987 </li></a>
+               
+                <a href=""><li>Eramen@gmail.com</li></a>
+            </div>
+
+
+        </div>
+
+        <div class="credit">copyright @ 2023 by <span>aida hanifa</span> All rights reserved</div>
+
+    </footer>
+ 
+     <!-- link agar dapat swipe -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="ContactUs.js"></script>
+</body>
+
+
+</html>
