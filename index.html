@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERamen</title>
+
+    <!-- biar ada icon menu and search -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- link agar dapat di swipe bagian menu -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- untuk box icon menu -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+
+    <!-- link ke css  -->
+    <link rel="stylesheet" href="HomeP.css" />
+  </head>
+
+  <body>
+    <div class="firstpict">
+      <!-- header dulu -->
+
+      <header>
+        <a href="./HomeP.html" class="logo"
+          ><img src="./pict/Logo.png" alt="" />ERamen.</a
+        >
+
+        <nav class="navbar">
+          <a class="active" href="./HomeP.html">home</a>
+          <a href="./Products.html">Products</a>
+          <a href="./Promotion.html">Promotion</a>
+          <a href="./AboutUs.html">About us</a>
+          <a href="./ContactUs.html">Contact us</a>
+        </nav>
+
+        <div class="icons">
+          <i class="fas fa-bars" id="bars"></i>
+          <i class="fas fa-search" id="search"></i>
+        </div>
+      </header>
+
+      <!-- udah header nya -->
+
+      <!-- nih umtuk tombol search nya -->
+
+      <form action="" id="search-form">
+        <input
+          type="search"
+          placeholder="search here..."
+          name=""
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+      </form>
+
+      <section class="HInfo" id="HInfo">
+        <div class="HInfo-Cont">
+          <h3>ERamen shop is one of the oldest ramen shops in the world.</h3>
+          <h1>since 1910 in Japan</h1>
+          <!-- <span>brought to Indonesia since 2015. </span>  -->
+          <!-- <p>All ERamen menu made by organic flour and turn into delicious ramen noodle.</p> -->
+        </div>
+        <div class="HInfo-img">
+          <img src="./pict/Kun.jpg" alt="" />
+        </div>
+      </section>
+    </div>
+
+    <!-- home menu lagi ya -->
+    <section class="Home" id="Home">
+      <div class="swiper Home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="Home-Info">
+              <span> our NEW menu</span>
+              <h3>Niku Eramen</h3>
+              <p>
+                Niku's ramen broth uses soyu soup that is specially made by
+                Eramen for about 12 hours. with abundant and appetizing meat
+                toppings.
+              </p>
+              <h1>ONLY Rp49.99rb</h1>
+              <a href="#New-menu" class="btn">Find more</a>
+            </div>
+            <div class="Home-img">
+              <img src="./pict/5.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="Home-Info">
+              <span> our BEST Seller</span>
+              <h3>Beef Curry ERamen</h3>
+              <p>
+                ERamen's most popular curry broth with savory flavors and
+                tender, juicy meat and an abundance of toppings that can arouse
+                your taste buds.
+              </p>
+              <h1>ONLY Rp64.99rb</h1>
+              <a href="#Best-menu" class="btn">Find more</a>
+            </div>
+            <div class="Home-img">
+              <img src="./pict/9.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- masuk ke NEW menu yaa -->
+
+    <section class="New-menu" id="New-menu">
+      <h1 class="sub-heading">NEW Menu</h1>
+      <h3 class="heading">choose your favourite</h3>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./pict/10.png" alt="" />
+          <h3>Beef Hot ERamen</h3>
+          <span
+            >Ramen with spicy ERamen sauce topped with beef so has its
+            characteristics.</span
+          >
+        </div>
+
+        <div class="box">
+          <img src="./menu/22.png" alt="" />
+          <h3>Beef Mazesoba ERamen</h3>
+          <span
+            >A dry ramen with beef toppings that meets the needs of customers
+            while still having a unique flavor.</span
+          >
+        </div>
+
+        <div class="box">
+          <img src="./menu/2.png" alt="" />
+          <h3>Crispy Duck ERamen</h3>
+          <span>Eramen-style miso soup ramen topped with crispy duck.</span>
+        </div>
+
+        <div class="box">
+          <img src="./menu/33.png" alt="" />
+          <h3>Matcha Latte</h3>
+          <span
+            >we now bring you Matcha Latte blended with quality results.</span
+          >
+        </div>
+
+        <div class="box">
+          <img src="./menu/3.png" alt="" />
+          <h3>Happy ERamen</h3>
+          <span
+            >A ramen that uses a spicy miso broth topped with an abundance of
+            meat that can make you happy lives up to its name.</span
+          >
+        </div>
+
+        <div class="box">
+          <img src="./menu/29.png" alt="" />
+          <h3>Shansuko Dango</h3>
+          <span
+            >Our new desseart menu with customized ingredients will greet you
+            with sweetness.</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- masuk ke Best Menu yaa -->
+
+    <section class="Best-menu" id="Best-menu">
+      <h1 class="sub-heading1">Best Menu</h1>
+      <h3 class="heading1">Many People Like This Menu</h3>
+
+      <div class="box-container1">
+        <div class="box1">
+          <img src="./menu/15.png" alt="" />
+          <h3>Duck Dry ERamen</h3>
+          <span
+            >Dry Eramen uses duck toppings, but the flavor is not inferior to
+            other ramen.</span
+          >
+        </div>
+
+        <div class="box1">
+          <img src="./menu/6.png" alt="" />
+          <h3>Healthy ERamen</h3>
+          <span>This ramen uses a spicy miso broth with healthy noodles.</span>
+        </div>
+
+        <div class="box1">
+          <img src="./menu/10.png" alt="" />
+          <h3>Tofu ERamen</h3>
+          <span
+            >This ramen uses a spicy miso broth topped with tofu, which is the
+            main point. perfect for vegans.</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="box-container-footer">
+        <div class="box-footer">
+          <h3>location in Japan</h3>
+          <a href=""><li>Osaka</li></a>
+          <a href=""><li>Tokyo</li></a>
+          <a href=""><li>Nagoya</li></a>
+        </div>
+
+        <div class="box-footer">
+          <h3>location in Indonesia</h3>
+          <a href=""><li>Jakarta</li></a>
+          <a href=""><li>Bandung</li></a>
+          <a href=""><li>Bali</li></a>
+          <a href=""><li>Riau</li></a>
+          <a href=""><li>Yogyakarta</li></a>
+          <a href=""><li>Bali</li></a>
+        </div>
+
+        <div class="box-footer">
+          <h3>Contact Us</h3>
+          <a href="ContactUs.html"><li>Contact Us</li></a>
+          <br />
+          <span>or</span>
+          <h3>Contact</h3>
+          <a href=""><li>0812-3456-789</li></a>
+          <a href=""><li>(021)4365-987</li></a>
+
+          <a href=""><li>Eramen@gmail.com</li></a>
+        </div>
+      </div>
+
+      <div class="credit">
+        copyright @ 2023 by <span>aida hanifa</span> All rights reserved
+      </div>
+    </footer>
+
+    <!-- link agar dapat swipe -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="HomeP.js"></script>
+  </body>
+</html>
